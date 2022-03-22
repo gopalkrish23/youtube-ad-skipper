@@ -1,0 +1,10 @@
+{
+    "name": "Youtube ad skipper",
+    "description": "our own youtube ad skipper!",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["main.js"]
+    }]
+}
